@@ -1,0 +1,37 @@
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="css/base.css">
+       <script type="text/javascript" src="js/Game.js"></script>
+       <title>2048</title>
+    </head>
+    <body>
+        <header>
+            <div id="reset">RESET</div>
+            <div id="score">SCORE</div>
+        </header>
+        <main id="game">
+            <div class="tile" id="0"></div>
+            <div class="tile" id="1"></div>
+            <div class="tile" id="2"></div>
+            <div class="tile" id="3"></div>
+            <div class="tile" id="4"></div>
+            <div class="tile" id="5"></div>
+            <div class="tile" id="6"></div>
+            <div class="tile" id="7"></div>
+            <div class="tile" id="8"></div>
+            <div class="tile" id="9"></div>
+            <div class="tile" id="10"></div>
+            <div class="tile" id="11"></div>
+            <div class="tile" id="12"></div>
+            <div class="tile" id="13"></div>
+            <div class="tile" id="14"></div>
+            <div class="tile" id="15"></div>
+        </main>
+        <script type="text/javascript">
+            function onBodyLoad() {
+                Game.init();
+            }
+            window.addEventListener('load', onBodyLoad);
+        </script>
+    </body>
+</html>
