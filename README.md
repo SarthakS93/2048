@@ -10,3 +10,4 @@ Runs on Linux, Mac OS
 TODO-
 Add a substitute for the js alerts.
 Fix algo for scoring
+Fix bugs
